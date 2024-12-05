@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aside</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header{
+            background: #0073e6;
+            height: 150px;
+            text-align: center;
+            align-content: center;
+            color: white;
+        }
+        nav{
+            padding: 10px;
+            background: #c1d8ef;
+            text-align: center;
+        }
+        nav a{
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(97, 97, 97);
+        }
+        nav a:hover{
+            color: #0073e6;
+            text-decoration: underline;
+            transition: color 0.4s;
+        }
+        section{
+            /* display: flex; */
+            margin: 20px;
+        }
+        article{
+            /* flex: 2; */
+            padding: 30px;
+            background: #ebeef1;
+            margin-right: 500px;
+            height: 300px;
+        }
+        aside{
+            /* flex: 1; */
+            width: 40%;
+            float: right;
+           margin-right: -10px;
+            background-color: #c4dbf1;
+           height: 300px;
+           padding: 10px;
+        }
+        aside a:hover{
+            text-decoration: none;
+            font-size: larger;
+            color: rgb(196, 155, 155);
+            transition: color 0.3s;
+        }
+        footer{
+            padding: 30px;
+            text-align: center;
+            background-color: rgb(70, 69, 69);
+            font-size: 1.15rem;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Your go-to place for great content</p>
+    </header>
+    <nav>
+        <a href="">Home</a><a href="">About</a><a href="">Contact</a>
+    </nav>
+    <section>
+        <aside>
+            <h2>Related Links</h2>
+            <li><a href="">HTML Reference</a></li>
+            <li><a href="">HTML Tutorials</a></li>
+            <li><a href="">HTML Specifications</a></li>
+        </aside>
+        <article>
+            <h2>About Semantic HTML</h2>
+            <p>Semantic HTML5 tags help create a clear and structured webpage layout. These tags provide meaning to the content they wrap, making it more accessible and easier to read for both users and search engines.</p>
+            <h3>Benefits of Semantic HTML</h3>
+            <ul>
+                <li>Improves accessibility
+                </li>
+                <li>Enhances SEO
+                </li>
+                <li>Makes the code easier to maintain
+                </li>
+            </ul>
+        </article>
+    </section>
+    <footer>
+        <p>© 2024 My Website | All rights reserved</p>
+    </footer>
+</body>
+</html>
