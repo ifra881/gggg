@@ -1,136 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        main {
-            display: flex;
-            margin: 20px;
-        }
-        article {
-            flex: 3;
-            margin-right: 20px;
-        }
-        aside {
-            flex: 1;
-            background-color: #f4f4f4;
-            padding: 15px;
-            border: 1px solid #ccc;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-        iframe {
-            width: 100%;
-            height: 315px;
-            border: 1px solid #ccc;
-            margin-top: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Lord of the Wings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Webpage</h1>
-    </header>
-
-    <main>
-        <article>
-            <h2>About This Page</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At tempora tenetur quod autem in ut harum dolore distinctio cupiditate?</p>
-
-            <h3>Sample Table</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Item</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Apples</td>
-                        <td>$2.50</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td>Bananas</td>
-                        <td>$1.20</td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>Oranges</td>
-                        <td>$3.00</td>
-                        <td>4</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h3>Types of Fruits</h3>
-            <ul>
-                <li>Citrus Fruits
-                    <ul>
-                        <li>Orange</li>
-                        <li>Lemon</li>
-                    </ul>
-                </li>
-                <li>Berry Fruits
-                    <ul>
-                        <li>Strawberry</li>
-                        <li>Blueberry</li>
-                    </ul>
-                </li>
+    <section>
+        <div class="blr_section"></div>
+        <div class="blr_section"></div>
+        <header>
+            <a href="#" class="logo"><i class="fa-solid fa-drumstick-bite"></i></a>
+            <ul class="nav" id="myTopnav">
+                <li><a href="#scrollspyHeading1">Home</a></li>
+                <li><a href="#scrollspyHeading2">Menu</a></li>
+                <li><a href="#scrollspyHeading3">About Us</a></li>
+                <li><a href="#scrollspyHeading4">Contact Us</a></li>
             </ul>
+            <a href="#" class="btn">Log In</a>
+        </header>
+        <div class="content" id="scrollspyHeading1">
+            <div class="contentbx">
+                <h1 class="animate__animated animate__fadeIn">Lord of the Wings</h1>
+                <h3 class="animate__animated animate__flipInX" style="animation-delay: 0.75s;">Flutter Yourself more
+                    often!!</h3>
+                <p class="animate__animated animate__lightSpeedInLeft" style="animation-delay: 0.9s;">Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Adipisci, sint doloribus. Voluptatum cumque
+                    aspernatur quia recusandae molestias nobis blanditiis voluptatem. Laboriosam provident a dolores
+                    ullam dolor ipsa repellat, velit inventore.</p>
+                <a href="" class="btn animate__animated animate__jackInTheBox"
+                    style="animation-delay: 1.3s; animation-duration: 2s;">Order Now</a>
+            </div>
+            <div class="imgbx animate__animated animate__zoomIn">
+                <img src="Daco_4155681.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="head1" id="scrollspyHeading2">
+        <h1 style="text-align: center; color: rgb(96, 63, 2) ; padding: 4rem;">Our Menu</h1>
+    </div>
+    <div class="head2 ">
+        <h2 style="color: rgb(96, 63, 2); padding-left: 4rem;">Most Popular</h2>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade animate__animated animate__backInUp "
+        style="padding-bottom: 4rem; padding:0rem 4rem 4rem;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="hicken.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sticky BBQ wings</h5>
+                                <p class="card-text">Hot, sweet and smothered in a rich, sticky and sweet BBQ sauce that
+                                    is just the right amount of spicy.</p>
 
-            <h3>Embedded Video</h3>
-            <p>Watch the following video for more information:</p>
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/-LUzHX7wi4g" title="Whisper Challenge with Chris Evans | The Tonight Show Starring Jimmy Fallon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </article>
+                            </div>
+                            <a href="" class="btn">View Menu</a>
+                            <div>
 
-        <aside>
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </aside>
-    </main>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="Daco_4155681.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Buffalo wings</h5>
+                                <p class="card-text">. Perfectly meaty and crunchy doused in a very peppery sauce, these
+                                    are thoroughly satisfying.</p>
+                            </div>
+                            <a href="" class="btn">View Menu</a>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="pik.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pik a Pok wings</h5>
+                                <p class="card-text">Tossed in a deliciously sweet and savory Vietnamese sauce, the Pik
+                                    a Pok wings are spicy, tender, sweet and downright crunchy. </p>
+                            </div>
+                            <a href="" class="btn">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="honey.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Honey Mustard wings</h5>
+                                <p class="card-text">The sauce coating the wings is perfectly balanced and deliciously
+                                    creamy.Be warned though, these pack some serious heat.</p>
+                            </div>
+                            <a href="" class="btn">View Menu</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="haberno.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fiery Hot Habanero wings</h5>
+                                <p class="card-text">Our favourite is the Habanero wings, crispy, moist and drenched in
+                                    a deliciously piquant sauce made with Habanero chillies.</p>
+                            </div>
+                            <a href="" class="btn">View Menu</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="Daco_4155681.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <a href="" class="btn">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="blr_section"></div>
+    <div class="blr_section"></div>
+    <div class="head1" id="scrollspyHeading3">
+        <h1 style="text-align: center; color: rgb(96, 63, 2) ; padding: 4rem;">About Us</h1>
+    </div>
+    <div class="row featurette" style="padding: 4rem; padding-top: 0;">
+        <div class="col-md-7 order-md-2" style="padding-top: 3rem; padding-left: 3rem;">
+            <h2 class="featurette-heading fw-normal lh-1" style="font-size: 1.5rem;">Oh yeah, it’s that good. <span
+                    class="text-body-secondary">See for yourself.</span></h2>
+            <p class="lead" style="font-size: 2rem; opacity: 70%;">Exclusive restaurant in town, the ultimate way to get
+                amazing food from the best chefs in the city. Great atmosphere included.</p>
+        </div>
+        <div class="col-md-5 order-md-1 " ">
+            <img src=" zakaria-zayane-0uAVsDcyD0M-unsplash.jpg" class="img-thumbnail" alt="...">
+        </div>
+    </div>
+    <div class="head1" id="scrollspyHeading4">
+        <h1 style="text-align: center; color: rgb(96, 63, 2) ; padding: 4rem; padding-bottom: 0;">Contact Us</h1>
+    </div>
+    <div class="para2" h1 style="text-align: center; color: rgb(96, 63, 2) ; ">
+        <p>We'd love to talk about how we can help you!</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-5 mb-5 mt-2 mx-5">
+        <div class="col">
+            <div class="card h-100 carddd">
+                <div class="card-body mt-4 mb-4">
+                    <div style="text-align: center">
+                        <i class="fa-solid fa-location-dot" style="color: rgb(96, 63, 2);"></i>
+                    </div>
+                    <h4 class="card-title text-center" style="color: rgb(96, 63, 2);"><b>Address</b></h4>
+                    <p class="card-text text-center mt-4" style="color:#808080 ;"><a class="link" href=""
+                            style="text-decoration: none; color: rgb(96, 63, 2);">ABC Road, Karachi</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 carddd">
+                <div class="card-body mt-4 mb-4">
+                    <div style="text-align: center">
+                        <span><i class="fa-solid fa-phone" style="color: rgb(96, 63, 2);"></i></span>
+                    </div>
+                    <h4 class="card-title text-center" style="color: rgb(96, 63, 2);"><b>Phone</b></h4>
+                    <p class="card-text text-center mt-4" style="color:#808080 ;"><a class="link"
+                            href="tel:// +92 3416422148" style="text-decoration: none; color: rgb(96, 63, 2);">+92
+                            8748835628</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 carddd">
+                <div class="card-body mt-4 mb-4">
+                    <div style="text-align: center">
+                        <span><i class="fa-solid fa-envelope" style="color: rgb(96, 63, 2);"></i></span>
+                    </div>
+                    <h4 class="card-title text-center" style="color: rgb(96, 63, 2);"><b>Email</b></h4>
+                    <p class="card-text text-center mt-4" style="color:#808080  ;"><a class="link"
+                            style="text-decoration: none; color: rgb(96, 63, 2);" href="">lordofthewings@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="py-6 bg-gray-100" style="padding: 4rem;">
+        <div class="container">
+            <h2 class="h4 mb-5" style="font-size: 3rem; color: rgb(96, 63, 2);">Contact form</h2>
+            <div class="row">
+                <div class="col-md-7 mb-5 mb-md-0">
+                    <form class="form" id="contact-form" method="post" action="contact.php">
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="mb-4">
+                                        <label class="form-label" for="name">Your firstname *</label>
+                                        <input class="form-control" type="text" name="name" id="name"
+                                            placeholder="Enter your firstname" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="mb-4">
+                                        <label class="form-label" for="surname">Your lastname *</label>
+                                        <input class="form-control" type="text" name="surname" id="surname"
+                                            placeholder="Enter your lastname" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label" for="email">Your email *</label>
+                                <input class="form-control" type="email" name="email" id="email"
+                                    placeholder="Enter your  email" required="required">
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label" for="message">Your message for us *</label>
+                                <textarea class="form-control" rows="4" name="message" id="message"
+                                    placeholder="Enter your message" required="required"></textarea>
+                            </div>
+                            <button class="btn btn-outline-primary" type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="ps-lg-4 text-sm">
+                        <p class="text-muted">Effects present letters inquiry no an removed or friends. Desire behind
+                            latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar
+                            together to. Desire so better am cannot he up before points. Remember mistaken opinions it
+                            pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed
+                            removed. </p>
+                        <p class="text-muted">Able an hope of body. Any nay shyness article matters own removal nothing
+                            his forming. Gay own additions education satisfied the perpetual. If he cause manor happy.
+                            Without farther she exposed saw man led. Along on happy could cease green oh. </p>
+                        <div class="social">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-pinterest"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i
+                                            class="fab fa-vimeo"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer style="background-color: #808080; height: 150px;">
+        <div class="card-footer text-center" style="padding: 4rem;">
 
-    <footer>
-        <p>&copy; 2024 My Webpage. All Rights Reserved.</p>
+
+            Copyright &copy; Reserved to Lord of the Wings </div>
     </footer>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+
 </html>
